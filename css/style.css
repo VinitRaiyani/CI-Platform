@@ -1,0 +1,287 @@
+@media only screen and (min-width:360px) and (max-width:1000px) {
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.image{
+    width: 100%;
+    height: 50%;
+}
+h2{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    /* align-items: center; */
+    
+    /* justify-content: center; */
+}
+.logindata{
+    width: 100%;
+    height: 200px;
+    margin-top: 6%;
+}
+.form-label{
+    font-size: 13px;
+    color: #414141;
+    margin-bottom: 8px;
+}
+#emailfield{
+    font-size: 13px;
+    width: 80%;
+    height: 16%;
+    margin-bottom: 2%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #2b64b11f;
+    border: 1px solid #2B64B1;
+    border-radius: 3px;
+}
+#passwordfield{
+    font-size: 13px;
+    width: 80%;
+    height: 16%;
+    margin-bottom: 6%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.97px 0.26px 3px #0000000D;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+}
+.btn{
+    width: 80%;
+    height: 20%;
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 402px;
+    height: 53px;
+}
+.firstext{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #414141;
+}
+.secondtext{
+    font-size: 14px;
+    color: #414141;
+}
+.privacy{
+    margin-top: 227px;
+    color: #414141;
+    font-size: 14px;
+}
+.text a:link{
+    text-decoration: none;
+    color: #2B64B1;
+    
+    
+}
+}
+
+@media only screen and (min-width:1001px) and (max-width:1440px) {
+    .container-fluid{
+        display: flex;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+    }
+    .paragraph1{
+        text-align: left;
+        font-size: 14px;
+    }
+    .paragraph2{
+        text-align: left;
+        font-size: 9px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        height: 983px;
+        width: 576px;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .logindata{
+        width: 402px;
+        height: 343px;
+        margin-top: 319px;
+    }
+    .form-label{
+        font-size: 16px;
+        color: #414141;
+        margin-bottom: 8px;
+    }
+    #emailfield{
+        font-size: 16px;
+        width: 401px;
+        height: 56px;
+        margin-bottom: 23px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #2B64B11F;
+        border: 1px solid #2B64B1;
+        border-radius: 3px;
+    }
+    #passwordfield{
+        font-size: 16px;
+        width: 401px;
+        height: 56px;
+        margin-bottom: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0.97px 0.26px 3px #0000000D;
+        border: 1px solid #D9D9D9;
+        border-radius: 3px;
+    }
+    .btn{
+        width: 401px;
+        height: 48px;
+        background: #F8863400 0% 0% no-repeat padding-box;
+        border: 2px solid #F88634;
+        border-radius: 24px;
+    }
+    .text{
+        align-items: center;
+        justify-content: center;
+        margin-top: 17px;
+        display: flex;
+        flex-direction: column;
+        width: 402px;
+        height: 53px;
+    }
+    .firstext{
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #414141;
+    }
+    .secondtext{
+        font-size: 14px;
+        color: #414141;
+    }
+    .privacy{
+        margin-top: 227px;
+        color: #414141;
+        font-size: 14px;
+    }
+    .text a:link{
+        text-decoration: none;
+        color: #2B64B1;  
+    }
+    }
+
+
+    @media only screen and (min-width:1441px){
+        /* body{
+            height: 983px;
+        } */
+        .container-fluid{
+            display: flex;
+        }
+        .image{
+            width: 1344px;
+            height: 983px;
+        }
+        .paragraph1{
+            text-align: left;
+            font-size: 43px;
+            line-height: 100%;
+        }
+        .paragraph2{
+            text-align: left;
+            font-size: 16px;
+        }
+        img{
+            height: 983px;
+            width: 100%;
+        }
+       
+        .login{
+            display: flex;
+            flex-direction: column;
+            height: 983px;
+            width: 576px;
+            align-items: center;
+           
+            /* justify-content: center; */
+        }
+        .logindata{
+            width: 402px;
+            height: 343px;
+            margin-top: 319px;
+        }
+        .form-label{
+            font-size: 16px;
+            color: #414141;
+            margin-bottom: 8px;
+        }
+        #emailfield{
+            font-size: 16px;
+            width: 401px;
+            height: 56px;
+            margin-bottom: 23px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 10px #2B64B11F;
+            border: 1px solid #2B64B1;
+            border-radius: 3px;
+        }
+        #passwordfield{
+            font-size: 16px;
+            width: 401px;
+            height: 56px;
+            margin-bottom: 30px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0.97px 0.26px 3px #0000000D;
+            border: 1px solid #D9D9D9;
+            border-radius: 3px;
+        }
+        .btn{
+            width: 401px;
+            height: 48px;
+            background: #F8863400 0% 0% no-repeat padding-box;
+            border: 2px solid #F88634;
+            border-radius: 24px;
+        }
+        .text{
+            align-items: center;
+            justify-content: center;
+            margin-top: 17px;
+            display: flex;
+            flex-direction: column;
+            width: 402px;
+            height: 53px;
+        }
+        .firstext{
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #414141;
+        }
+        .secondtext{
+            font-size: 14px;
+            color: #414141;
+        }
+        .privacy{
+            margin-top: 227px;
+            color: #414141;
+            font-size: 14px;
+        }
+        .text a:link{
+            text-decoration: none;
+            color: #2B64B1;
+        }
+        }
