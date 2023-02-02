@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/registrationcss.css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="image">
+        <div class="image" id="imageid">
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100" alt="...">
+                        <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png"
+                            class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="paragraph1">first Sed ut perspiciatis unde omnis iste natus voluptatem.</p>
-                            <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -31,7 +33,8 @@
                             class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="paragraph1">second Sed ut perspiciatis unde omnis iste natus voluptatem.</p>
-                            <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -40,7 +43,8 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100" alt="...">
+                        <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png"
+                            class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <p class="paragraph1">third Sed ut perspiciatis unde omnis iste natus voluptatem.</p>
                             <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -66,26 +70,39 @@
         </div>
         <div class="login">
             <div class="logindata">
-                <label for="emailfield" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="emailfield" placeholder="evan.donohue@gmail.com">
+                <form action="">
+                    <label for="firstname" class="form-label" >First Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
 
-                <label for="passwordfield" class="form-label">Password</label>
-                <input type="password" class="form-control" id="passwordfield" placeholder="*********">
-                <button type="button" class="btn btn-outline-warning">Login</button>
-                <div class="text">
-                    <span class="firstext"><a href="forgotpass.html" style="color:#414141"> Lost your password?</a></span>
-                    <span class="secondtext">Don't have an account? <a href="registration.html"> Create an account</a></span>
-                </div>
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control otherinput" id="lastname" placeholder="Last Name">
 
+                    <label for="phoneno" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control otherinput" id="phoneno" placeholder="8547521456" pattern="[0-9]{10}">
+
+                    <label for="emailfield" class="form-label">Email Address</label>
+                    <input type="email" class="form-control otherinput" id="emailfield" placeholder="evan.donohue@gmail.com">
+
+                    <label for="passwordfield" class="form-label">Password</label>
+                    <input type="password" class="form-control otherinput" id="passwordfield" placeholder="*********">
+
+                    <label for="conformpassword" class="form-label">Conform Password</label>
+                    <input type="password" class="form-control otherinput" id="conformpassword" placeholder="*********">
+                    <button type="button" class="btn btn-outline-warning"><a href="login.html"> Register</a></button>
+                    <div class="text">
+                        <span class="firstext"><a href="forgotpass.html" style="text-decoration: none; color:#414141"> Lost your password?</a></span>
+                        <span class="secondtext">Already registered? <a href="login.html"> Login now</a></span>
+                    </div>
+
+                </form>
             </div>
-
             <footer class="privacy">Privacy Policy</footer>
         </div>
 
 
     </div>
 
-<script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
