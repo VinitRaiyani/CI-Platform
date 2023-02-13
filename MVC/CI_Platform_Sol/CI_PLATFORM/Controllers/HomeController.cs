@@ -18,7 +18,12 @@ namespace CI_PLATFORM.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Forgot_Password()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }

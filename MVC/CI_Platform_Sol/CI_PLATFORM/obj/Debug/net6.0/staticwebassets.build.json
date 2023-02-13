@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yK42R83YznUnS2QxPU1mR/iJPxgy/HHh35GZmUlL0AI=",
+  "Hash": "e/w8X1VqreeSjR5CVHYn6/BAMDiO+/FBWpWzNw5/N7c=",
   "Source": "CI_PLATFORM",
   "BasePath": "_content/CI_PLATFORM",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CI_PLATFORM.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\forgotpassword.css",
+      "SourceId": "CI_PLATFORM",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\",
+      "BasePath": "_content/CI_PLATFORM",
+      "RelativePath": "css/forgotpassword.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\forgotpassword.css"
+    },
+    {
+      "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\registrationcss.css",
+      "SourceId": "CI_PLATFORM",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\",
+      "BasePath": "_content/CI_PLATFORM",
+      "RelativePath": "css/registrationcss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registrationcss.css"
     },
     {
       "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\style.css",
