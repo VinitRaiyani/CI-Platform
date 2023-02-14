@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e/w8X1VqreeSjR5CVHYn6/BAMDiO+/FBWpWzNw5/N7c=",
+  "Hash": "gI7SdIy/Bk0taTiTNMmgT7S+M0eHN7A5Iel2ueReWc8=",
   "Source": "CI_PLATFORM",
   "BasePath": "_content/CI_PLATFORM",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\forgotpassword.css"
+    },
+    {
+      "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\newpasswordcss.css",
+      "SourceId": "CI_PLATFORM",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\",
+      "BasePath": "_content/CI_PLATFORM",
+      "RelativePath": "css/newpasswordcss.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\newpasswordcss.css"
     },
     {
       "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\registrationcss.css",
