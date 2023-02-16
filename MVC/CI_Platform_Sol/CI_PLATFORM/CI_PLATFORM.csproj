@@ -6,9 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  
 
 
   <ItemGroup>
+    <None Include="Views\Home\Home.cshtml" />
     <None Include="Views\Home\Newpassword.cshtml" />
     <None Include="Views\Home\Register.cshtml" />
   </ItemGroup>

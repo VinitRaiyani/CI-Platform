@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gI7SdIy/Bk0taTiTNMmgT7S+M0eHN7A5Iel2ueReWc8=",
+  "Hash": "t1Ujj97yKL3OyWSA7cqdt0WVQU3iyJnPWqMwl3YItpI=",
   "Source": "CI_PLATFORM",
   "BasePath": "_content/CI_PLATFORM",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CI_PLATFORM.bundle.scp.css"
     },
     {
+      "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "CI_PLATFORM",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\",
+      "BasePath": "_content/CI_PLATFORM",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
       "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\forgotpassword.css",
       "SourceId": "CI_PLATFORM",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\forgotpassword.css"
+    },
+    {
+      "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\Home.css",
+      "SourceId": "CI_PLATFORM",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\",
+      "BasePath": "_content/CI_PLATFORM",
+      "RelativePath": "css/Home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Home.css"
     },
     {
       "Identity": "E:\\CI Platform\\MVC\\CI_Platform_Sol\\CI_PLATFORM\\wwwroot\\css\\newpasswordcss.css",
